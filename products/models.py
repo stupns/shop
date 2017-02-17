@@ -1,6 +1,6 @@
 from django.db import models
 
-
+#test 123
 class Product(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
